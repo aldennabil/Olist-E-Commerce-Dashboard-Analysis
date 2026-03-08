@@ -73,7 +73,7 @@ min_date = all_data_df["order_purchase_timestamp"].min()
 max_date = all_data_df["order_purchase_timestamp"].max()
 
 with st.sidebar:
-    st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
+    st.image("https://metait.ai/wp-content/uploads/2024/01/Logo-Olist.png")
     
     # Filter Rentang Waktu
     try:
@@ -244,4 +244,4 @@ ax[2].set_xlabel(None)
 
 st.pyplot(fig)
 
-st.caption('Copyright (c) Alden Nabil 2024')
+st.caption('Copyright (c) Alden Nabil 2026')
